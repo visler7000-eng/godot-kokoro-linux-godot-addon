@@ -1,0 +1,20 @@
+# Build/cache files
+kokoro_linux_build/
+build/
+*.o
+*.a
+*.log
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# Godot import/cache
+.godot/
+.import/
+*.import
+
+# Large model files are excluded by default. Use releases or download script.
+addons/godot_kokoro/models/*.onnx
+addons/godot_kokoro/models/*.bin
+addons/godot_kokoro/models/tokens.txt
